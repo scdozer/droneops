@@ -33,7 +33,7 @@ export const HeroVideo = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 500px;
+  min-height: 500px;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -41,8 +41,8 @@ export const HeroVideo = styled.div`
   justify-content: center;
   text-align: center;
   video {
-    height: auto;
-    width: 100%;
+    height: 100%;
+    width: 450%;
   }
   @media (max-width: 950px) {
     height: 250px;
