@@ -16,6 +16,7 @@
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-sass": "^2.3.21",
     "gatsby-plugin-sharp": "^2.6.42",
+    "gatsby-plugin-styled-components": "^3.3.14",
     "gatsby-plugin-transitions": "^2.1.7",
     "gatsby-source-filesystem": "^2.3.34",
     "gatsby-source-wordpress-experimental": "^1.7.8",
