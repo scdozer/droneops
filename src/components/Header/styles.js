@@ -23,7 +23,7 @@ export const HeaderFlex = styled.div`
 export const Logo = styled.div`
   color: #dd6b20;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 45px;
   text-decoration: none;
   a {

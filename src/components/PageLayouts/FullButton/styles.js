@@ -12,6 +12,7 @@ export const Content = styled.div`
 `
 export const Button = styled.a`
   text-transform: uppercase;
+  font-weight: 400;
   letter-spacing: 2px;
   display: inline-block;
   margin-top: 20px;
@@ -24,8 +25,5 @@ export const Button = styled.a`
   text-decoration: none;
   &:hover {
     filter: brightness(85%);
-  }
-  h1 {
-    color: red;
   }
 `

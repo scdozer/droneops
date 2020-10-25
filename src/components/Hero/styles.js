@@ -23,6 +23,7 @@ export const HeroContainer = styled.div`
     width: 100%;
     display: block;
     color: white;
+    font-style: italic;
   }
 `
 
