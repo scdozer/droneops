@@ -26,13 +26,12 @@ const variants = {
 }
 
 const Layout = ({ children }) => {
-  const url = window.location.href;
   return (
     <Body>
       <Header />
       <AnimatePresence>
         <motion.main
-          key={url}
+          key={typeof window !== `undefined` ? window.location.href : Math.random(0,1000)}
           variants={variants}
           initial="initial"
           animate="enter"
