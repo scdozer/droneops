@@ -10,10 +10,11 @@ export const HeaderContainer = styled.div`
   }
 `
 
-export const HeaderStuff = styled.div`
+export const HeaderFlex = styled.div`
   display: flex;
   justify-content: space-between;
-  @media (max-width: 950px) {
+  @media (max-width: 960px) {
+    align-items:center;
     justify-content: flex-start;
     flex-direction: column;
   }
@@ -43,11 +44,9 @@ export const Navigation = styled.div`
   a:hover {
     color: #ea281e;
   }
-  @media (max-width: 950px) {
+  @media (max-width: 960px) {
     font-size: 16px;
     line-height: 25px;
-    a {
-      padding-left: 10px;
-    }
+    padding: 0px 10px;
   }
 `
