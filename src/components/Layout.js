@@ -25,13 +25,14 @@ const variants = {
   },
 }
 
-const Layout = ({ children, location }) => {
+const Layout = ({ children }) => {
+  const url = window.location.href;
   return (
     <Body>
       <Header />
       <AnimatePresence>
         <motion.main
-          key={location.key}
+          key={url}
           variants={variants}
           initial="initial"
           animate="enter"
