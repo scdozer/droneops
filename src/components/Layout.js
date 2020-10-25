@@ -31,7 +31,7 @@ const Layout = ({ children, location }) => {
       <Header />
       <AnimatePresence>
         <motion.main
-          key={location.pathname}
+          key={location.key}
           variants={variants}
           initial="initial"
           animate="enter"
