@@ -5,7 +5,7 @@ import "../styles/styles.css"
 import Header from "./Header"
 import Footer from "./Footer"
 
-const duration = 0.5
+const duration = 0.3
 
 const variants = {
   initial: {
