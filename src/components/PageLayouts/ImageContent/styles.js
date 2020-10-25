@@ -27,4 +27,7 @@ export const Image = styled.img`
   flex: 5;
   min-height: 500px;
   width: 100%;
+  @media (max-width: 950px) {
+    min-height: 250px;
+  }
 `
