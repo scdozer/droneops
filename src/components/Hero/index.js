@@ -6,7 +6,7 @@ const renderVideoHero = (heading, subheading, url) => {
   return (
     <HeroContainer>
       <HeroVideo>
-        <video src={url} autoPlay muted loop></video>
+        <video src={url} autoPlay muted loop playsinline type='video/mp4'></video>
       </HeroVideo>
       <Fade bottom distance="50px">
         <h1>{heading}</h1>
