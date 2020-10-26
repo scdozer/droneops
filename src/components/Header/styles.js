@@ -29,6 +29,9 @@ export const Logo = styled.div`
   a {
     text-decoration: none;
   }
+  @media (max-width: 960px) {
+    line-height: 30px;
+  }
 `
 
 export const Navigation = styled.div`
