@@ -12,7 +12,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   text-align: center;
   @media (max-width: 950px) {
-    height: 250px;
+    height: 400px;
   }
   h1 {
     display: block;
@@ -45,6 +45,6 @@ export const HeroVideo = styled.div`
     width: 450%;
   }
   @media (max-width: 950px) {
-    height: 250px;
+    height: 400px;
   }
 `
