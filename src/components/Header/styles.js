@@ -45,8 +45,10 @@ export const Navigation = styled.div`
     color: #ea281e;
   }
   @media (max-width: 960px) {
-    font-size: 16px;
+    a {
+      font-size: 16px;
     line-height: 25px;
     padding: 0px 10px;
+    }
   }
 `
